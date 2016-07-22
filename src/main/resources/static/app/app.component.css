@@ -1,0 +1,12 @@
+.ctn {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 4px;
+}
+.main {
+    flex-grow: 1;
+    background: #eaedf1;
+    padding: 10px;
+}

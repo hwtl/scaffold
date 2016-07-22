@@ -1,0 +1,24 @@
+appCode: se-shark
+#thymeleaf
+spring.thymeleaf:
+   cache: false # Enable template caching.
+   check-template-location: true # Check that the templates location exists.
+   content-type: text/html # Content-Type value.
+   enabled: true # Enable MVC Thymeleaf view resolution.
+   encoding: UTF-8 # Template encoding.
+   mode: HTML5 # Template mode to be applied to templates. See also StandardTemplateModeHandlers.
+   prefix: "classpath:/templates/" # Prefix that gets prepended to view names when building a URL.
+   suffix: ".html"  # Suffix that gets appended to view names when building a URL.
+
+
+async.pool:
+  corePoolSize: 500
+  keepAliveSeconds: 60
+  maxPoolSize: 150
+  queueCapacity: 200
+  threadNamePrefix: saury-view
+##初始值判断一百万数据
+se.saury.extension.total-count: 1000000
+##每次提交的数值1w 操作一次数据库
+se.saury.extension.submit-count: 10000
+

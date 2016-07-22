@@ -1,0 +1,1 @@
+{"version":3,"file":"switchboard.component.js","sourceRoot":"","sources":["switchboard.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA;;GAEG;AACH,qBAA0B,eAAe,CAAC,CAAA;AAU1C;IAAA;QACI,WAAM,GAAU,QAAQ,CAAC;IAC7B,CAAC;IAXD;QAAC,gBAAS,CAAC;YACP,QAAQ,EAAE,aAAa;YACvB,QAAQ,EAAE,gHAIT;YACD,MAAM,EAAE,EAAE;SACb,CAAC;;4BAAA;IAGF,2BAAC;AAAD,CAAC,AAFD,IAEC;AAFY,4BAAoB,uBAEhC,CAAA"}
